@@ -20,3 +20,7 @@ class Ninja {
     this.salud += 10;
   }
 }
+
+const ninja1 = new Ninja("Hyabusa");
+ninja1.sayName();
+ninja1.showStats();
